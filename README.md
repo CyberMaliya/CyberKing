@@ -52,7 +52,7 @@
     
   [![CyberMaliya](https://github.com/cybermaliya.png?size=100)](https://github.com/CyberMaliya)
 
-[Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
+[CyberMaliya](https://github.com/CyberMaliya)  
   </div>
     
    
