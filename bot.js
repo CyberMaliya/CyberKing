@@ -283,12 +283,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             var nsup = config.SUPPORT2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
-        if (config.CYBERKING1 == '380946264670-1635685193@g.us') {     
-            var esup = config.SLSUP1.split(',');                            
+        if (config.CYBERKING1 == '380946264670-1635685193') {     
+            var esup = config.CYBERKING1.split(',');                            
             if(msg.key.remoteJid.includes('-') ? esup.includes(msg.key.remoteJid.split('@')[0]) : esup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         if (config.CYBERKING2 == '94711176746') {     
-            var nsup = config.SUPPORT2.split(',');                            
+            var nsup = config.CYBERKING2.split(',');                            
             if(msg.key.remoteJid.includes('-') ? nsup.includes(msg.key.remoteJid.split('@')[0]) : nsup.includes(msg.participant ? msg.participant.split('@')[0] : msg.key.remoteJid.split('@')[0])) return ;
         }
         if (config.AMDANIWASA == '393475528094-1415817281') {     
