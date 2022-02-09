@@ -27,7 +27,7 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔥 Hey There! I'm Online now. 🔥```\n\n*Version:* ```v4.0.5 - Stable```\n\n*Developer:* ```Cyber Maliya```\n\n\n\n\n```Thank You For Using CyberKing Bot```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔥 Hey There! I'm Online now. 🔥```\n\n*Version:* ```v4.0.5 - Stable```\n\n*Developer:* ```Cyber Maliya```\n\n```Thank You For Using CyberKing Bot```"})
 
     }
     else {
@@ -59,7 +59,7 @@ else if (Config.WORKTYPE == 'public') {
             
             var image = await axios.get (Config.ALIVE_LOGO, {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔥 Hey There! I'm Online now. 🔥```\n\n*Version:* ```v4.0.5 - Stable```\n\n*Developer:* ```Cyber Maliya```\n\n\n\n\n```Thank You For Using CyberKing Bot```"})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🔥 Hey There! I'm Online now. 🔥```\n\n*Version:* ```v4.0.5 - Stable```\n\n*Developer:* ```Cyber Maliya```\n\n```Thank You For Using CyberKing Bot```"})
 
     }
     else {
