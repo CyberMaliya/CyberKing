@@ -13,7 +13,7 @@ if (fs.existsSync('./language/' + Config.LANG + '.json')) {
         chalk.red.bold('᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ᴋɪɴɢᬐ')
     );
 
-    var json = JSON.parse(fs.readFileSync('./language/EN.json'));
+    var json = JSON.parse(fs.readFileSync('./language/SI.json'));
 }
 
 function getString(file) {
