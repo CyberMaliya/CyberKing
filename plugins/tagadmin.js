@@ -1,17 +1,4 @@
-const Asena = require('../events');
-const TAGADMİN = "Tags group admins."
-const {MessageType} = require('@adiwajshing/baileys');
-const Config = require('../config');
+/*Copiright (C) 2022 NICO
+*/
 
-    Asena.addCommand({pattern: 'tagadmin', fromMe: false, desc: TAGADMİN}, (async (message, match) => {
-        let grup = await message.client.groupMetadata(message.jid);
-        var jids = [];
-        mesaj = '';
-        grup['participants'].map(async (uye) => {
-            if (uye.isAdmin) {
-                mesaj += '@' + uye.id.split('@')[0] + ' ';
-                jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
-            }
-        });
-        await message.client.sendMessage(message.jid,mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0})
-    }));
+const _0x574615=_0x3ebe;(function(_0x5edea7,_0x1e527d){const _0x3ea3e4=_0x3ebe,_0x16fbf6=_0x5edea7();while(!![]){try{const _0x927a82=parseInt(_0x3ea3e4(0x19f))/0x1+parseInt(_0x3ea3e4(0x1a4))/0x2*(-parseInt(_0x3ea3e4(0x19c))/0x3)+parseInt(_0x3ea3e4(0x19a))/0x4+-parseInt(_0x3ea3e4(0x189))/0x5+parseInt(_0x3ea3e4(0x192))/0x6+parseInt(_0x3ea3e4(0x18d))/0x7*(-parseInt(_0x3ea3e4(0x18f))/0x8)+-parseInt(_0x3ea3e4(0x193))/0x9*(parseInt(_0x3ea3e4(0x18a))/0xa);if(_0x927a82===_0x1e527d)break;else _0x16fbf6['push'](_0x16fbf6['shift']());}catch(_0x9a4331){_0x16fbf6['push'](_0x16fbf6['shift']());}}}(_0x4f61,0x87f39));function _0x3ebe(_0x39d997,_0x2d852b){const _0x4f616a=_0x4f61();return _0x3ebe=function(_0x3ebe6c,_0x228cd0){_0x3ebe6c=_0x3ebe6c-0x189;let _0x2c3b8e=_0x4f616a[_0x3ebe6c];return _0x2c3b8e;},_0x3ebe(_0x39d997,_0x2d852b);}const Asena=require('../events'),{MessageType}=require(_0x574615(0x198)),Config=require(_0x574615(0x1a2)),Language=require(_0x574615(0x1a1)),Lang=Language['getString'](_0x574615(0x196));if(Config['WORKTYPE']=='private')Asena[_0x574615(0x19e)]({'pattern':'tagadmin$','fromMe':!![],'desc':Lang['TAGADMİN']},async(_0x26a023,_0xdb8b33)=>{const _0x811dd=_0x574615;let _0xfcc3a2=await _0x26a023[_0x811dd(0x1a8)][_0x811dd(0x195)](_0x26a023[_0x811dd(0x18b)]);var _0x5a568f=[];mesaj='',_0xfcc3a2['participants'][_0x811dd(0x1a7)](async _0x3d218a=>{const _0x4ab053=_0x811dd;_0x3d218a[_0x4ab053(0x19b)]&&(mesaj+=_0x4ab053(0x194)+_0x3d218a['id'][_0x4ab053(0x1a3)]('@')[0x0]+'\x0a',_0x5a568f[_0x4ab053(0x18c)](_0x3d218a['id'][_0x4ab053(0x197)](_0x4ab053(0x1a6),'s.whatsapp.net')));}),await _0x26a023[_0x811dd(0x1a8)][_0x811dd(0x19d)](_0x26a023['jid'],mesaj,MessageType[_0x811dd(0x18e)],{'contextInfo':{'mentionedJid':_0x5a568f},'previewType':0x0});});else Config[_0x574615(0x199)]=='public'&&Asena[_0x574615(0x19e)]({'pattern':_0x574615(0x1a0),'fromMe':![],'desc':Lang[_0x574615(0x191)]},async(_0x490cd1,_0x3415b4)=>{const _0x218c20=_0x574615;let _0x497344=await _0x490cd1['client'][_0x218c20(0x195)](_0x490cd1[_0x218c20(0x18b)]);var _0x1dbaf6=[];mesaj='',_0x497344[_0x218c20(0x190)][_0x218c20(0x1a7)](async _0x4007f2=>{const _0x23ff69=_0x218c20;_0x4007f2['isAdmin']&&(mesaj+=_0x23ff69(0x194)+_0x4007f2['id']['split']('@')[0x0]+'\x0a',_0x1dbaf6['push'](_0x4007f2['id'][_0x23ff69(0x197)](_0x23ff69(0x1a6),_0x23ff69(0x1a5))));}),await _0x490cd1[_0x218c20(0x1a8)][_0x218c20(0x19d)](_0x490cd1['jid'],mesaj,MessageType[_0x218c20(0x18e)],{'contextInfo':{'mentionedJid':_0x1dbaf6},'previewType':0x0});});function _0x4f61(){const _0x2295e6=['24972dRtKgz','sendMessage','addCommand','734458avalnt','tagadmin$','../language','../config','split','18TalbQP','s.whatsapp.net','c.us','map','client','1865600XRKOWH','1930aGgXYH','jid','push','7kyDtVc','extendedText','8135976FkXBpg','participants','TAGADMİN','6464940qSfKXj','38322ioeRUj','😋\x20@','groupMetadata','tagall','replace','@adiwajshing/baileys','WORKTYPE','4126944wDCJbw','isAdmin'];_0x4f61=function(){return _0x2295e6;};return _0x4f61();}
