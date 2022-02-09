@@ -29,7 +29,7 @@
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "HEROKU": {
             "description": "Heroku",
