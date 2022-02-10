@@ -9,7 +9,6 @@ const Asena = require('../events');
 const Config = require('../config');
 const {MessageType} = require('@adiwajshing/baileys');
 const fs = require("fs")
-const asena = fs.readFileSync('./media/CyberQueen.mp3') 
 
 const Language = require('../language');
 const Lang = Language.getString('_asena');
