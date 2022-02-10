@@ -1,5 +1,5 @@
 {
-    "name": "CyberKing WHATSAPP BOT",
+    "name": "CyberKing WhatsApp BOT",
     "description": "CyberKings is a chat bot for WhatsApp.",
     "logo": "https://telegra.ph/file/43a15356c3c401a129484.jpg",
     "keywords": ["whatsapp", "userbot", "King", "CyberKing", "bot", "api", "ai", "Cyber"],
@@ -25,6 +25,11 @@
             "description": "Bot ගේ ක්‍රියාකාරිත්වය සඳහා යෙදිය යුතු සලකුනු",
             "required": true,
             "value": "^[.!;]"
+        },
+        "CYS_PANEL": {
+            "description": "Menu CMD",
+            "required": true,
+            "value": "ck"
         },
         "SEND_READ": {
             "description": "Bot message seen කළාද නැතිද යන්න පරිශීලකට පෙන්විය යුතුද?",
