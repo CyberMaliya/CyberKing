@@ -1,6 +1,6 @@
 # ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ᴋɪɴɢᬐ
 
-# Now You Can Deploy CyberKing WhatsApp BOT
+# You Can Deploy CyberKing WhatsApp BOT
  
 ## Hi there I am ᳆⃞🇱🇰ᴄʏͥʙᴇͣʀͫ↯ᴋɪɴɢᬐ v4.0.2
 
@@ -39,20 +39,21 @@
  
 
   <p align="center">
-  <a href="https://github.com/SLTechnicalTips/CyberQueen">
+  <a href="https://github.com/CyberMaliya/CyberKing">
     
 
     
  ## Developers
   <div align="center">
-    
-  [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
-
-[Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
-    
+   
   [![CyberMaliya](https://github.com/cybermaliya.png?size=100)](https://github.com/CyberMaliya)
 
 [CyberMaliya](https://github.com/CyberMaliya)  
+   
+   
+  [![NICO](https://github.com/sltechnicaltips.png?size=100)](https://github.com/SLTechnicalTips)
+
+[Nico @SL Technical Tips](https://github.com/sltechnicaltips)  
   </div>
     
    
