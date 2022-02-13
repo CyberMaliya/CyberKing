@@ -1,4 +1,4 @@
-const Trex = require('../events');
+const Cyber = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const Heroku = require('heroku-client');
 const Config = require('../config');
