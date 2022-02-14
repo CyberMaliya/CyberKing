@@ -11,7 +11,7 @@ const SPAM_DESC = "Powerful Spam";
 const heroku = new Heroku({
     token: Config.HEROKU.API_KEY
 });
-
+  
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
