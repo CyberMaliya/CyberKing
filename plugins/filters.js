@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-king-web-api');
 const FilterDb = require('./sql/filters');
 
 const Language = require('../language');

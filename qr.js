@@ -5,7 +5,7 @@ you may not use this file except in compliance with the License.
 */
 
 const chalk = require('chalk');
-const { WAConnection, MessageType } = require('@adiwajshing/baileys');
+const { WAConnection, MessageType } = require('cyber-king-web-api');
 const fs = require('fs');
 
 async function whatsAsena() {

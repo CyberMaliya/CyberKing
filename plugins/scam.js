@@ -4,7 +4,7 @@ Instagram: www.instagram.com/kyrie.baran
 */
 
 const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype, Presence} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype, Presence} = require('cyber-king-web-api');
 
 const Language = require('../language');
 const Lang = Language.getString('scam');

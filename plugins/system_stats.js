@@ -9,7 +9,7 @@ WhatsAsenaPublic - TOXIC DEVIL
 */
 
 const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, MessageOptions, Mimetype} = require('cyber-king-web-api');
 const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');

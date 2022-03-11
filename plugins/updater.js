@@ -7,7 +7,7 @@ you may not use this file except in compliance with the License.
 const simpleGit = require('simple-git');
 const git = simpleGit();
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-king-web-api');
 const Config = require('../config');
 const exec = require('child_process').exec;
 const Heroku = require('heroku-client');

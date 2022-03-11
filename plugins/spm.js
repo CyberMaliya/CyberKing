@@ -6,7 +6,7 @@ Facebook: https://www.facebook.com/ravindu.manoj.79
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 */
-const {MessageType, GroupSettingChange, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, GroupSettingChange, Mimetype} = require('cyber-king-web-api');
 const QueenSew = require('../events');
 const Config = require('../config');
 const os = require("os");

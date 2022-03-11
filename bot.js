@@ -2,6 +2,8 @@
 
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
+
+Helped By Cyber Draxo ( button created )
 */
 
 const fs = require("fs");
@@ -10,7 +12,7 @@ const events = require("./events");
 const chalk = require('chalk');
 const config = require('./config');
 const Heroku = require('heroku-client');
-const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
+const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('cyber-king-web-api');
 const {Message, StringSession, Image, Video} = require('./CyberKing/');
 const { DataTypes } = require('sequelize');
 const { GreetingsDB, getMessage } = require("./plugins/sql/greetings");
@@ -24,7 +26,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsenaDuplicated', {
+const CyberKingDB = config.DATABASE.define('CyberKing', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -66,9 +68,9 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function CyberKingWa () {
     await config.DATABASE.sync();
-    var StrSes_Db = await WhatsAsenaDB.findAll({
+    var StrSes_Db = await CyberKingDB.findAll({
         where: {
           info: 'StringSession'
         }
@@ -95,7 +97,7 @@ async function whatsAsena () {
 
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await CyberKingDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
@@ -476,4 +478,4 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
     }
 }
 
-whatsAsena(); 
+CyberKingWa(); 

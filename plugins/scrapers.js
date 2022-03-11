@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType,Mimetype} = require('@adiwajshing/baileys');
+const {MessageType,Mimetype} = require('cyber-king-web-api');
 const translatte = require('translatte');
 const config = require('../config');
 const axios = require('axios')

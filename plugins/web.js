@@ -7,7 +7,7 @@ WhatsAsena - Yusuf Usta
 */
 
 const Asena = require('../events');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-king-web-api');
 const speedTest = require('@lh2020/speedtest-net');
 const TinyURL = require('tinyurl');
 
@@ -15,7 +15,7 @@ const Language = require('../language');
 const Lang = Language.getString('web');
 const SLang = Language.getString('webss');
 
-function speedText(speed) {
+/*function speedText(speed) {
     let bits = speed * 8;
     const units = ['', 'K', 'M', 'G', 'T'];
     const places = [0, 1, 2, 3, 3];
@@ -41,7 +41,7 @@ Asena.addCommand({pattern: 'speedtest', fromMe: true, desc: Lang.SPEEDTEST_DESC}
     );
     await msg.delete();
 }));
-
+*/
 Asena.addCommand({pattern: 'ping', fromMe: true, deleteCommand: false, desc: Lang.PING_DESC}, (async (message, match) => {
   var start = new Date().getTime();
   var msg = await message.reply('```Ping!```');

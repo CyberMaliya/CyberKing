@@ -1,5 +1,5 @@
 const Asena = require('../events');
-const { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('@adiwajshing/baileys');
+const { MessageType, Mimetype, GroupSettingChange, MessageOptions } = require('cyber-king-web-api');
 const dil = require('axios');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');

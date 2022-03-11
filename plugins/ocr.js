@@ -9,7 +9,7 @@ Thanks to github/@justinthoms for base and helps.
 
 const Asena = require('../events');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-king-web-api');
 const tesseract = require("node-tesseract-ocr")
 const langs = require('langs');
 const Language = require('../language');

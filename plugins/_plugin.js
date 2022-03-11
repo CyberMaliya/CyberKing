@@ -7,7 +7,7 @@ you may not use this file except in compliance with the License.
 const Asena = require('../events');
 const Heroku = require('heroku-client');
 const Config = require('../config');
-const {MessageType} = require('@adiwajshing/baileys');
+const {MessageType} = require('cyber-king-web-api');
 const got = require('got');
 const fs = require('fs');
 const Db = require('./sql/plugin');

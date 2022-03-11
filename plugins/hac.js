@@ -11,7 +11,7 @@ Whats bot - Ravindu Manoj
 */
 
 const QueenSew = require('../events');
-const {MessageType, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, Mimetype} = require('cyber-king-web-api');
 const fs = require('fs');
 const ffmpeg = require('fluent-ffmpeg');
 const {execFile} = require('child_process');

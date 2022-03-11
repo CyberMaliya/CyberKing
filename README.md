@@ -111,4 +111,3 @@ This is an open source project, you are responsible for everything you do.
 Absolutely, CyberQueen executives do not accept responsibility.
 By establishing the CyberQueen, you are deemed to have accepted these responsibilities.
 ```
-

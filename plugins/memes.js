@@ -8,7 +8,7 @@ Coded by @KursadHD
 */
 
 const Asena = require('../events');
-const {MessageType, Mimetype} = require('@adiwajshing/baileys');
+const {MessageType, Mimetype} = require('cyber-king-web-api');
 const memeMaker = require('meme-maker')
 const fs = require('fs')
 const Config = require('../config');
