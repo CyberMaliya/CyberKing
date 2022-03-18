@@ -22,7 +22,7 @@
   "homepage": "https://github.com/CyberMaliya/CyberKing#readme",
   "dependencies": {
     "cyberking-npm": "3.0.4",
-    "cyber-king-web-api": "1.0.0",
+    "cyber-king-web-api": "1.0.1",
     "@lh2020/speedtest-net": "^2.1.1",
     "browser-id3-writer": "^4.4.0",
     "chalk": "^4.1.0",
