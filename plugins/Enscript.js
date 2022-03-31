@@ -1,8 +1,8 @@
-const Asena = require('../events');
+const CyberK = require('../events');
 const {MessageType, Mimetype} = require('cyber-king-web-api');
 const Config = require('../config');
 
-Asena.addCommand({pattern: 'btn', fromMe: true, desc: btn}, (async (message, match) => {
+CyberK.addCommand({pattern: 'btn', fromMe: true, desc: btn}, (async (message, match) => {
 			    
 			    var BUTTHANDLE = '';
 			    if (/\[(\W*)\]/.test(Config.HANDLERS)) {
@@ -25,4 +25,4 @@ Asena.addCommand({pattern: 'btn', fromMe: true, desc: btn}, (async (message, mat
 			    }
 			  await message.client.sendMessage(message.user.jid, buttonMessage ,MessageType.buttonsMessage);  
 
-     });
+     })
