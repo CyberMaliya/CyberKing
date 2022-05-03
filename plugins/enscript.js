@@ -25,4 +25,4 @@ CyberK.addCommand({pattern: 'btn', fromMe: true, desc: btn}, (async (message, ma
 			    }
 			  await message.client.sendMessage(message.user.jid, buttonMessage ,MessageType.buttonsMessage);  
 
-     }
+     })
